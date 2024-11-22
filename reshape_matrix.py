@@ -15,6 +15,11 @@ def reshape_matrix(a: list[list[int|float]], new_shape: tuple[int, int]) -> list
                 final_list.append(draft_list)
                 draft_list=[]
                 counter=0
+
+    # Test passed already but i will add a validation for the new shape
+    # Error handling
+    if len(final_list) != new_shape[0]:
+        return "Invalid new shape"
             
         
     return final_list
