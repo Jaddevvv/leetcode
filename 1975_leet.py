@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/maximum-matrix-sum/submissions/1461700732/?envType=daily-question&envId=2024-11-24
+# https://leetcode.com/problems/maximum-matrix-sum
 
 class Solution(object):
     def maxMatrixSum(self, matrix):
