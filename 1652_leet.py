@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/defuse-the-bomb/description
+
 class Solution(object):
     def decrypt(self, code, k):
         n = len(code)
